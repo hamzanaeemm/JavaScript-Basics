@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="JCP.css">
+
+
+</head>
+<body>
+    <h1>This is my JavaScript Revision From Basics</h1>
+    <p id="dateTime"></p>
+    <button type="button" onclick='document.getElementById("dateTime").innerHTML=Date()'>Click Me to dsipla date and time</button>
+    <br><br><br>
+
+    <p id="ChngCntnt">Hello This is Changeable text.</p>
+    <button type="button" onclick='document.getElementById("ChngCntnt").innerHTML="Hello My name is Hamza"'>Click Me to change the text</button>
+    <br><br><br>
+
+    <p>Below is an interesting Demo of Javascript Functionality</p>
+    <img id="bulb" src="images/offbulb.gif">
+    <br>
+    <button type="button" onclick='document.getElementById("bulb").src="images/onbulb.gif"'>Click to turn the bulb on</button>
+    <br>
+    <button type="button" onclick='document.getElementById("bulb").src="images/offbulb.gif"'>Click to turn the bulb off</button>
+    <br><br><br>
+
+    <div id="div1"></div>
+    <button type="button" onclick="document.getElementById('div1').style.display='block'">Click here to make the shape appear</button>
+    <br><br><br>
+    
+    <p id="para1">This is default font size of paragraph tag</p>
+    <button type="button" onclick='document.getElementById("para1").style.fontSize="50px" '>Click Change font size</button>
+    <br><br><br>
+
+
+
+    <p id="hide" style="display:none;">I can Hide</p>
+    <button type="button" onclick="document.getElementById('hide').style.display='block'">Click here to Display the hidden text</button>
+    <br>
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Click here to Hide the text back</button>
+    <br><br><br>
+
+    <h3>Below we have used internal Javascript</h3>
+    <p id="test">I am hamza.</p>
+    <script> document.getElementById('test').style.animation = 'fading 2s infinite'</script>
+    <br><br><br>
+
+
+
+    <p id="para3">My Name is Muhammad Khan.</p>
+    <button type="button" onclick=myFunction()>Click here to append text</button>
+    <br><br><br>
+
+
+
+    <button type="button" onclick=window.print()>Print the Web Page</button>
+    <br><br><br>
+
+
+    <p id="para4"></p>
+    <br><br><br>
+
+
+    <p id="para5"></p>
+    <br><br><br>
+    
+
+    <p id="para6"></p>
+    <br><br><br>
+
+    
+    <p id="para7"></p>
+    <br><br><br>
+
+    <p id="para8"></p>
+    <br><br><br>
+
+
+    <p id="para9"></p>
+    <br><br><br>
+
+    <h4>Enter value in Fahrenheit Below</h4>
+    <input id="inp1" type="text" />
+    <button id="btn1" type="button" value="Submit">Convert to Celcius</button>
+    <br><br><br>
+
+
+    <p id="para10"></p>
+    <br><br><br>
+
+
+    <button onclick="this.innerHTML = Date()">Give me Clock</button>
+    <br><br><br>
+
+
+    <p id="para11"></p>
+    <br><br><br>
+    
+    <script src="JsCorePractise.js"></script>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

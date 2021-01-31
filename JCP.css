@@ -1,0 +1,19 @@
+#test {
+    width: 100px;
+    height: 20px;
+}
+
+/* Here is the animation (keyframes) */
+@keyframes fading {
+    0% { opacity: 1; }
+    100% { opacity: 0.2; }
+    
+}
+
+#div1{
+    width: 100px;
+    height: 100px;
+    display: none;
+    background-color: brown;
+    border-radius: 50%;
+}
